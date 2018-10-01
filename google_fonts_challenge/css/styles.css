@@ -1,0 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Chicle-Regular.ttf);
+}
+
+.fancy {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bold {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: myFirstFont;
+}
+

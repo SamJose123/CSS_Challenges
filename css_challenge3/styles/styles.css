@@ -1,0 +1,105 @@
+/* General setup */
+/* Remember to always comment*/
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background: #ccc;
+  }
+  
+  article {
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+  }
+  
+  address {
+    position: absolute;
+    bottom: 21mm;
+    right: 13mm;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 12mm;
+    left: 20mm;
+    width: 342px;
+    height: 128px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  /* background images, border */
+  
+  article {
+    background: url(top-image.png) no-repeat left top;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.2)),
+                url(https://pinkbanner.com/wp-content/uploads/2018/07/banner-top-nsrp-wave-banner-top.jpg) no-repeat left top,
+                url(https://pinkbanner.com/wp-content/uploads/2018/07/banner-top-banner-bg-top.jpg) no-repeat  left bottom;
+    background-color: white;
+    border-top: 1mm solid orangered;
+    border-bottom: 1mm solid rgb(106, 201, 204);
+    background-blend-mode: hard-light;
+  }
+  
+  h1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm0wJEs5RUWs7HfVJ1bJNjVQ14AUGMD5fHyZsIu6q9pBvfHjtBTQ);
+    /* filter: drop-shadow(3px 3px 3px black); */
+    border-radius: 65px;
+    box-shadow: 9px 9px 9px black;
+  }
+
+
+
+
+  /* Cool Box */
+p {
+    width: 233px;
+    height: 59px;
+
+    /* calculation for rem: 16 (base) 18px/16 = 1.125 */
+    font-size: 16px;
+    font-size: 1.125rem;
+
+    line-height: 2.8;
+    text-align: center;
+    background: linear-gradient(to left top, rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    background-color: blueviolet;
+    color: white;
+    border-radius: 68px;
+    text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+    border: 1px solid rgb(80, 27, 129);
+     
+    
+
+
+}
+
+
+
+
+
+
+
+
+
